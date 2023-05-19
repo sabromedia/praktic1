@@ -1,0 +1,40 @@
+mainwindow.xaml:
+
+<Window x:Class="practic1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:practic1"
+        mc:Ignorable="d"
+        Title="Перевод радиан в градусы" Height="214.557" Width="378.797">
+    <Grid>
+        <Label Content="Введите значение угла в радианах:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="alphaTextBox" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Посчитать" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" Width="75" Click="BtnOK_Click"/>
+        <Label x:Name="resultLabel" Content="Значение угла в градусах:" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
+
+
+mainwindow.xaml.cs:
+
+namespace practic1
+{
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void BtnOK_Click(object sender, RoutedEventArgs e)
+        {
+            double alpha = double.Parse(alphaTextBox.Text);
+
+            double result = alpha * 180 / Math.PI;
+
+            resultLabel.Content = "Значение угла в градусах: " + result;
+        }
+    }
+}
