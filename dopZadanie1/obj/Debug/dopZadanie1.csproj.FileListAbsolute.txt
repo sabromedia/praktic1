@@ -1,0 +1,15 @@
+D:\практические работы\practic1TSR\dopZadanie1\bin\Debug\dopZadanie1.exe.config
+D:\практические работы\practic1TSR\dopZadanie1\bin\Debug\dopZadanie1.exe
+D:\практические работы\practic1TSR\dopZadanie1\bin\Debug\dopZadanie1.pdb
+D:\практические работы\practic1TSR\dopZadanie1\obj\Debug\dopZadanie1.csproj.AssemblyReference.cache
+D:\практические работы\practic1TSR\dopZadanie1\obj\Debug\MainWindow.g.cs
+D:\практические работы\practic1TSR\dopZadanie1\obj\Debug\App.g.cs
+D:\практические работы\practic1TSR\dopZadanie1\obj\Debug\dopZadanie1_MarkupCompile.cache
+D:\практические работы\practic1TSR\dopZadanie1\obj\Debug\dopZadanie1_MarkupCompile.lref
+D:\практические работы\practic1TSR\dopZadanie1\obj\Debug\MainWindow.baml
+D:\практические работы\practic1TSR\dopZadanie1\obj\Debug\dopZadanie1.g.resources
+D:\практические работы\practic1TSR\dopZadanie1\obj\Debug\dopZadanie1.Properties.Resources.resources
+D:\практические работы\practic1TSR\dopZadanie1\obj\Debug\dopZadanie1.csproj.GenerateResource.cache
+D:\практические работы\practic1TSR\dopZadanie1\obj\Debug\dopZadanie1.csproj.CoreCompileInputs.cache
+D:\практические работы\practic1TSR\dopZadanie1\obj\Debug\dopZadanie1.exe
+D:\практические работы\practic1TSR\dopZadanie1\obj\Debug\dopZadanie1.pdb
